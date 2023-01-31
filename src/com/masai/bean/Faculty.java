@@ -13,7 +13,7 @@ public class Faculty {
 	
 	public Faculty(int facultyId, String facultyName, String facultyAddress, String mobile, String email,
 			String username, String password) {
-		super();
+		
 		this.facultyId = facultyId;
 		this.facultyName = facultyName;
 		this.facultyAddress = facultyAddress;
@@ -24,8 +24,8 @@ public class Faculty {
 	}
 
 	public Faculty() {
-		super();
-		// TODO Auto-generated constructor stub
+		
+		
 	}
 
 	public int getFacultyId() {
