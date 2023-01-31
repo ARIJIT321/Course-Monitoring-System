@@ -9,7 +9,7 @@ public class CoursePlan {
 	private String status;
 	
 	public CoursePlan(int planId, int batchId, int dayNumber, String topic, String status) {
-		super();
+		
 		this.planId = planId;
 		this.batchId = batchId;
 		this.dayNumber = dayNumber;
@@ -18,8 +18,8 @@ public class CoursePlan {
 	}
 
 	public CoursePlan() {
-		super();
-		// TODO Auto-generated constructor stub
+		
+		
 	}
 
 	public int getPlanId() {
