@@ -8,7 +8,7 @@ public class Course {
 	private String courseDescription;
 	
 	public Course(int courseId, String courseName, int fee, String courseDescription) {
-		super();
+		
 		this.courseId = courseId;
 		this.courseName = courseName;
 		this.fee = fee;
@@ -17,8 +17,8 @@ public class Course {
 	
 	
 	public Course() {
-		super();
-		// TODO Auto-generated constructor stub
+		
+		
 	}
 
 
