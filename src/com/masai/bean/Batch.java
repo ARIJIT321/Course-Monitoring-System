@@ -11,7 +11,7 @@ public class Batch {
 	
 	public Batch(int batchId, int courseId, int facultyId, int numberOfStudents, String batchStartDate,
 			String duration) {
-		super();
+		
 		this.batchId = batchId;
 		this.courseId = courseId;
 		this.facultyId = facultyId;
@@ -22,8 +22,8 @@ public class Batch {
 	
 
 	public Batch() {
-		super();
-		// TODO Auto-generated constructor stub
+
+
 	}
 
 
