@@ -85,8 +85,6 @@ public class BatchDaoImp implements BatchDao {
 
 	@Override
 	public String createBatch(Batch batch) throws BatchException {
-		// TODO Auto-generated method stub
-
 		String message = "Failed!";
 
 		try (Connection conn = DBUtil.provideConnection()) {
@@ -115,7 +113,6 @@ public class BatchDaoImp implements BatchDao {
 
 	@Override
 	public List<Batch> getAllBatchDetails() throws BatchException {
-		// TODO Auto-generated method stub
 
 		List<Batch> batches = new ArrayList<Batch>();
 
