@@ -12,9 +12,7 @@ import com.masai.utility.DBUtil;
 public class AdminDaoImp implements AdminDao{
 
 	@Override
-	public Admin loginAdmin(String username, String password) throws AdminException {
-		// TODO Auto-generated method stub
-		
+	public Admin loginAdmin(String username, String password) throws AdminException {		
 		
 		Admin admin=null;		
 		
@@ -41,11 +39,8 @@ public class AdminDaoImp implements AdminDao{
 			throw new AdminException(e.getMessage());
 		}
 		
-		
 		return admin;
-		
-		
-		
+
 	}
 
 	
